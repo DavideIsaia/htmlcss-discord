@@ -9,3 +9,17 @@
 html {
     font-family: "Whitney", sans-serif;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 2px solid black;
+    height: 80px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
