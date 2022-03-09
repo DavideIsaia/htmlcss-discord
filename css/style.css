@@ -8,6 +8,7 @@
 /* common */
 html {
     font-family: "Whitney", sans-serif;
+    font-weight: bold;
 }
 
 .container {
@@ -33,7 +34,6 @@ a {
     text-decoration: none;
     color: inherit;
     font-size: 1em;
-    font-weight: bold;
 }
 
 .title {
@@ -44,7 +44,6 @@ a {
 .text {
     font-size: 1em;
     line-height: 1.6em;
-    font-weight: bold;
 }
 
 /* buttons */
@@ -77,6 +76,7 @@ a {
 
 .btn-light {
     background-color: #8ea1e1;
+    color: white;
 }
 
 /* header */
@@ -145,12 +145,29 @@ main section:nth-child(odd) {
     float: left;
     width: 60%;
     padding: 8em 0;
+    vertical-align: middle;
 }
 
 .small {
     float: left;
     width: 40%;
     padding: 8em 0;
+    vertical-align: middle;
+}
+
+.center-text {
+    text-align: center;
+    padding: 8em 0;
+}
+
+.t-small {
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    padding-top: 1em;
 }
 
 
