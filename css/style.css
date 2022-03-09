@@ -41,6 +41,12 @@ a {
     margin-bottom: 0.8em;
 }
 
+.title-small {
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    padding-top: 1em;
+}
+
 .text {
     font-size: 1em;
     line-height: 1.6em;
@@ -160,24 +166,37 @@ main section:nth-child(odd) {
     padding: 8em 0;
 }
 
-.t-small {
-    background-image: url(../img/stars.svg);
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-size: 2em;
-    margin-bottom: 0.8em;
-    padding-top: 1em;
+.bg-stars {
+background-image: url(../img/stars.svg);
+background-position: top;
+background-size: contain;
+background-repeat: no-repeat;
 }
-
 
 /* footer */
 footer {
     background-color: #23272a;
+    line-height: 80px;
+}
+
+footer .button {
+    display: inline;
+}
+
+footer .logo {
+    float: left;
+}
+
+.reg {
+    float: right;
+    vertical-align: middle;
+}
+
+.border-top {
+    border-top: 1px solid #455277;
 }
 
 /* debug */
-footer .container {
-    height: 80px;
-    border: 2px solid white;
+.debug {
+    height: 200px;
 }
