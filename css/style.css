@@ -14,12 +14,95 @@ html {
     width: 80%;
     margin: 0 auto;
     /* debug */
-    border: 2px solid black;
-    height: 80px;
+    border: 2px solid orange;
+    height: 60px;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+/* buttons */
+.button {
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.btn-small {
+    padding: 0.6em 0.1em;
+    font-size: 0.9em;
+}
+
+.btn-large {
+
+}
+
+/* button colors */
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-gray {
+    background-color: #23272a;
+    color: white;
+}
+
+.btn-light {
+    background-color: #8ea1e1;
+}
+
+/* header */
+header {
+    background-color: #3161e0;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.col {
+    float: left;
+    width: 15%;
+}
+
+.col-center {
+    width: 70%;
+    text-align: center;
+} 
+
+.header-menu li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+/* main */
+main section:nth-child(odd) {
+    background-color: #f6f6f6;
+}
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #23272a;
 }
