@@ -13,15 +13,16 @@ html {
 .container {
     width: 80%;
     margin: 0 auto;
-    /* debug */
-    border: 2px solid orange;
-    height: 60px;
 }
 
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+img {
+    width: 100%;
 }
 
 ul {
@@ -35,9 +36,15 @@ a {
     font-weight: bold;
 }
 
+.title {
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+}
+
 .text {
     font-size: 1em;
     line-height: 1.6em;
+    font-weight: bold;
 }
 
 /* buttons */
@@ -109,6 +116,7 @@ main section:nth-child(odd) {
     background-color: #f6f6f6;
 }
 
+/* jumbotron */
 .jumbotron {
     background-image: url(../img/jumbo.png);
     background-position: center;
@@ -123,11 +131,6 @@ main section:nth-child(odd) {
     text-align: center;
 }
 
-.j-title {
-    font-size: 2.5em;
-    margin-bottom: 0.8em;
-}
-
 .buttons {
     margin-top: 2em;
 }
@@ -136,8 +139,28 @@ main section:nth-child(odd) {
     margin-right: 1em;
 }
 
+/* main sections */
+
+.big {
+    float: left;
+    width: 60%;
+    padding: 8em 0;
+}
+
+.small {
+    float: left;
+    width: 40%;
+    padding: 8em 0;
+}
+
 
 /* footer */
 footer {
     background-color: #23272a;
+}
+
+/* debug */
+footer .container {
+    height: 80px;
+    border: 2px solid white;
 }
