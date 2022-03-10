@@ -122,9 +122,19 @@ header .button {
     text-align: right;
 }
 
-/* main */
-main section:nth-child(odd) {
+/* main background */
+.bg-gray {
     background-color: #f6f6f6;
+}
+
+.wave img {
+    display: block;
+}
+
+.wave-180 img {
+    transform: rotate(180deg);
+    margin: -2px;
+    display: block;
 }
 
 /* jumbotron */
