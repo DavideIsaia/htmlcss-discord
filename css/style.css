@@ -115,6 +115,7 @@ header {
 
 header .button {
     display: inline;
+    text-align: right;
 }
 
 /* main */
@@ -159,6 +160,11 @@ main section:nth-child(odd) {
     width: 40%;
     padding: 8em 0;
     vertical-align: middle;
+}
+
+h2 {
+    margin: 1.5em 0 1em;
+    font-size: 2em;
 }
 
 .center-text {
