@@ -108,6 +108,10 @@ header {
     text-align: center;
 } 
 
+.btn {
+    text-align: right;
+}
+
 .header-menu li {
     display: inline-block;
     margin-right: 1em;
